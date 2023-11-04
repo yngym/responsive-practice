@@ -1,106 +1,102 @@
 .question--title {
   text-align: center;
 }
+  /*Q1*/
 .box1 {
   width: 400px;
   height: 400px;
   background: #ff0000;
   margin: 0 auto;
 }
+  /*Q2*/
 .box2 {
   width: 300px;
   height: 300px;
   background: #ff0000;
   margin: 0 auto;
 }
+  /*Q3-Q7*/
 .box3,.box4,.box7 {
   display: flex;
   justify-content: center;
 }
-.bluebox3 {
-  width: 300px;
-  height: 300px;
-  background: #0008ff;
-  margin-right: 150px;
+.box5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
-.greenbox3 {
-  width: 300px;
-  height: 300px;
-  background: #22ff00;
-}
-.redbox4 {
-  width: 300px;
-  height: 300px;
-  background: #ff0000;
-  float: left;
-}
-.bluebox4 {
-  width: 300px;
-  height: 300px;
-  background: #0008ff;
-  float: left;
-}
-.box5,.box6 {
+.box6 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.redbox5 {
+.bluebox3,.greenbox3,.redbox4,.bluebox4,.redbox5,.bluebox5,.orangebox5,.greenbox6,.yellowgreenbox6,.pinkbox6,.redbox7,.bluebox7,.greenbox7  {
   width: 300px;
   height: 300px;
+}
+  /*Q3*/
+.bluebox3 {
+  background: #0008ff;
+  margin-right: 150px;
+}
+.greenbox3 {
+  background: #22ff00;
+}
+  /*Q4*/
+.redbox4 {
+  background: #ff0000;
+  float: left;
+}
+.bluebox4 {
+  background: #0008ff;
+  float: left;
+}
+  /*Q5*/
+.redbox5 {
   background: #ff0000;
   text-align: center;
   line-height: 300px;
 }
 .bluebox5 {
-  width: 300px;
-  height: 300px;
   background: #0008ff;
   text-align: center;
   line-height: 300px;
 }
 .orangebox5 {
-  width: 300px;
-  height: 300px;
   background: #ff8400;
   text-align: center;
   line-height: 300px;
 }
+  /*Q6*/
 .greenbox6 {
-  width: 300px;
-  height: 300px;
   background: #00ff51;
   text-align: center;
   line-height: 300px;
+  order: 1;
 }
 .yellowgreenbox6 {
-  width: 300px;
-  height: 300px;
   background: #d4ff00;
   text-align: center;
   line-height: 300px;
+  order: 2;
 }
 .pinkbox6 {
-  width: 300px;
-  height: 300px;
   background: #ff00e1;
   text-align: center;
   line-height: 300px;
+  order: 3;
 }
+  /*Q7*/
 .redbox7 {
-  width: 300px;
-  height: 300px;
   background: #ff0000;
+  display: block;
 } 
 .bluebox7 {
-  width: 300px;
-  height: 300px;
   background: #0008ff;
   display: none;
 }
 .greenbox7 {
-  width: 300px;
-  height: 300px;
   background: #00ff51;
 }
 
@@ -111,111 +107,47 @@
     height: 200px;
   }
   .box2 {
-    width: 300px;
-    height: 300px;
     background: #007bff;
   }
-  .box3,.box7 {
-    display: flex;
-    justify-content: center;
-  }
   .bluebox3 {
-    width: 300px;
-    height: 300px;
     background: #0008ff;
     margin-right: 50px;
   }
-  .gerrnbox3 {
-    width: 300px;
-    height: 300px;
+  .greenbox3 {
     background: #22ff00;
   }
   .box4 {
     display: block;
   }
   .redbox4 {
-    width: 300px;
-    height: 300px;
     background: #ff0000;
     float: none;
   }
-  .bluebox4 {
-    width: 300px;
-    height: 300px;  
+  .bluebox4 { 
     background: #0008ff;
     float: none;
   }
   .box5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row-reverse;
   }
-  .redbox5 {
-    width: 300px;
-    height: 300px;
-    background: #ff0000;
-    text-align: center;
-    line-height: 300px;
-  }
-  .bluebox5 {
-    width: 300px;
-    height: 300px;
-    background: #0008ff;
-    text-align: center;
-    line-height: 300px;
-  }
-  .orangebox5 {
-    width: 300px;
-    height: 300px;
-    background: #ff8400;
-    text-align: center;
-    line-height: 300px;
-  }
-  .box6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .greenbox6 {
-    width: 300px;
-    height: 300px;
-    background: #00ff51;
-    text-align: center;
-    line-height: 300px;
     order: 2;
   }
   .yellowgreenbox6 {
-    width: 300px;
-    height: 300px;
-    background: #d4ff00;
-    text-align: center;
-    line-height: 300px;
     order: 3;
   }
   .pinkbox6 {
-    width: 300px;
-    height: 300px;
-    background: #ff00e1;
-    text-align: center;
-    line-height: 300px;
     order: 1;
   }
   .redbox7 {
-    width: 300px;
-    height: 300px;
     background: #ff0000;
     display: none;
   } 
   .bluebox7 {
-    width: 300px;
-    height: 300px;
     background: #0008ff;
     display: block;
   }
   .greenbox7 {
-    width: 300px;
-    height: 300px;
     background: #00ff51;
   }
 
